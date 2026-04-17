@@ -1,0 +1,23 @@
+# Ignore everything by default
+/*
+
+# But allow Aula_* directories
+!Aula_*/
+
+# Allow key files
+!.gitignore
+!README.md
+
+# Ignore large archive files (>100MB)
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tar.bz2
+
+# Ignore large video files
+*.mp4
+*.mkv
+*.mov
+*.avi
